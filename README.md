@@ -43,10 +43,11 @@ This script automates the process of extracting text from various file formats (
    - Download your GCP service account JSON file.
    - Transfer the contents to the .env file
    - add the json format to the GCP_Key.json
+   - add your bucket name to line 83 in imagescan.py
 
 4. **Image Folder**:
-   - Define the path to the image folder where the files will be processed from (set in the script).
-   - The output folder will be automatically created if it doesn’t exist.
+   - Define the path to the image folder where the files will be processed from (set in the script, line 36).
+   - Define the path to the Processed folder where the files will be held befor upload (set in the script, line 37).
 
-For more info on this code or if you need archive service's visit https://redsolutions.vercel.app/
+If you need archive service's visit https://redsolutions.vercel.app/
 
